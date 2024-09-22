@@ -1,0 +1,11 @@
+{
+  "name": "pet-store",
+  "version": "1.0.0",
+  "description": "front-end website for a pet-store",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch main.scss css/styles.css "
+  },
+  "author": "",
+  "license": "ISC"
+}
