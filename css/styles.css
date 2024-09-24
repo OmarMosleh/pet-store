@@ -14,6 +14,7 @@ body {
   font-size: 1.6rem;
   color: #001321;
   font-weight: 500;
+  background-color: #eee;
 }
 
 .section {
@@ -120,6 +121,44 @@ h1 {
 }
 .section_header_h2 {
   color: #e7c88e;
+}
+
+.row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+}
+.card > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card_body_title {
+  font-size: 1.5rem;
+  margin: 0.6rem 0rem;
+}
+.card_body_details {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+.card_body_details_gender {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+.card_body_details_age {
+  font-size: 1.4rem;
+}
+.card_body_price {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
