@@ -160,5 +160,45 @@ h1 {
 .card_body_price {
   font-weight: 700;
 }
+.card_body_gift {
+  margin-top: 1.5rem;
+  background-color: #f7dba7;
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.card_body_icon {
+  margin-right: 1.5rem;
+}
+.card_body_p {
+  font-weight: 600;
+}
+
+.banner {
+  width: 100%;
+  background-image: url(../../images/Banner-1-bg.png);
+  background-repeat: no-repeat;
+}
+.banner_wrapper {
+  display: flex;
+  padding: 0px 7rem;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner_title {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #003459;
+}
+.banner_p {
+  margin-bottom: 4rem;
+}
+.banner_content {
+  text-align: right;
+}
 
 /*# sourceMappingURL=styles.css.map */

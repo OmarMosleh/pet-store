@@ -28,5 +28,20 @@
     &_price{
         font-weight: 700;
     }
+    &_gift{
+      margin-top: 1.5rem;
+      background-color: $secondary_color_1;
+      display: flex;
+      font-size: 1.4rem;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+    &_icon{
+      margin-right: 1.5rem;
+    }
+    &_p{
+      font-weight: 600;
+    }
   }
 }
